@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: 5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+}
+header > .phandau1 > p {
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 100px;
+    
+
+    
+}
+
+
+header > .phandau1 > p > .fa-solid{
+      font-style:normal;
+}
+header >  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 100px;
+ }
+ header > ul > li {
+    min-width: 50px;
+    padding: 0px 10px;
+   margin-top: 2px;
+    text-align: center;
+    font-size: 15px;
+    
+ }
+ 
+ header > ul > li > a {
+    text-decoration: none;
+ }
+ header > ul > li > a:hover {
+    color: red;
+ }
+header > .phandau2 > p  {
+    margin-right: 80px;
+    font-size: 21px;
+    margin-top: 3px;
+}
+
+
+
+.sport {
+    width: 100%;
+    height: 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+    background-color: rgb(41, 37, 37);
+}
+.sport > p {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: yellow;
+    
+    
+}
+.sport > form {
+   margin-right: 20%;
+    
+}
+.sport > form > input {
+    width: 195%;
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.sport ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 1px 1px;
+    margin-right: 100px;
+}
+.sport ul li {
+    
+    color: rgb(222, 14, 49);
+}
+.sport > ul > li:nth-child(1) > i {
+    color: black;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.giohang i {
+    font-size: 50px;
+}
+
+
+nav {
+    width: 100%;
+    height:5%;
+    background-color:rgb(49, 43, 46);
+    margin-bottom: 5px;
+}
+nav ul {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   margin-top: 5px;
+}
+
+nav ul li {
+    min-width: 50px;
+    padding: 10px 10px;
+    border-right: 5px solid white;
+    text-align: center;
+}
+nav ul li:hover {
+    background-color: red;
+}
+nav ul li a {
+    font-size: 100%;
+    color: white;
+    text-decoration: none;
+}
+nav > ul > li:nth-child(7) {
+    border-right:  none;
+}
